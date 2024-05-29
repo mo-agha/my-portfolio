@@ -15,7 +15,9 @@ const Projects = ({ selectedProject }) => {
                   detail && <li key={index}>{detail.trim()}</li>
               )}
           </ul>
-          <a href={selectedProject.link}>Check out the repo!</a>
+          <a href={selectedProject.link} target="_blank">
+            Check out the repo!
+          </a>
         </>
       ) : (
         <h1>Select a Project to view details.</h1>
