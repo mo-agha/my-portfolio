@@ -1,0 +1,22 @@
+#project-list {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 20px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+h2:hover {
+  color: #e7db00;
+}
+
+h2.selected {
+  color: #e7db00;
+  font-size: 20px;
+  transition: font-size 0.3s ease;
+}

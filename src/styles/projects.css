@@ -1,0 +1,37 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #e7db00;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 20px;
+  list-style-type: circle;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#main a {
+  text-decoration: none;
+  color: #e7db00;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+#main a:hover {
+  transform: translateX(20px);
+}
