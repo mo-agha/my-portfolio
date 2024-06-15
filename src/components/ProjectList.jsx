@@ -21,6 +21,12 @@ const ProjectList = ({ onProjectSelect, selectedProject }) => {
         "*Developed a full-stack MERN video sharing app that allows users to view, upload, interact with videos and channels, search functionality, trending and randomized videos, and more. *Implemented over 20 API routes utilizing Axios for seamless communication, efficiently managing user authentication, video, commenting, and other critical functionalities, ensuring a robust and responsive user experience. *Integrated JWT authentication for secure user access, and employed Redux.js for user state management and persistence. *Crafted a responsive and visually captivating front-end using React.js components and pages, and used styled-components to facilitate efficient management of styles with props and states.",
       link: "https://www.github.com/mo-agha/Youtube-Clone",
     },
+    {
+      title: "Time Watch",
+      details:
+        "*Developed a Python application to track and visualize time spent on different applications. *Utilized AppKit framework for macOS to capture active application data in real-time. *Implemented data persistence using JSON to store daily usage statistics. *Designed a graphical user interface (GUI) using Tkinter, allowing users to view daily usage stats through a customizable bar chart interface.",
+      link: "https://www.github.com/mo-agha/time_watch",
+    },
   ];
 
   console.log(projects);
