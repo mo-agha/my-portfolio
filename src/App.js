@@ -140,11 +140,10 @@ const App = () => {
                   </p>
                 </a>
                 <a
-                  className="resume-link"
                   href="https://drive.google.com/uc?export=download&id=1ea57eRkWexBtueiLuSMtyZGD4Jf0ahGo"
                   download
                 >
-                  <p>
+                  <p className="resume-link">
                     <FontAwesomeIcon icon={faDownload} size="lg" />
                     <span>Download My Resume</span>
                   </p>

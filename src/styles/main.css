@@ -201,6 +201,10 @@ p {
   color: #f0f0f0;
 }
 
+.resume-link {
+  color: #e7db00;
+}
+
 @media (max-width: 768px) {
   .container {
     width: 100vw;
