@@ -5,7 +5,11 @@ import ProjectList from "./components/ProjectList";
 import "./styles/main.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faPhone,
+  faDownload,
+} from "@fortawesome/free-solid-svg-icons";
 
 const App = () => {
   const [selectedOption, setSelectedOption] = useState("about");
@@ -133,6 +137,16 @@ const App = () => {
                       size="2x"
                     />
                     <span>Phone: +1 (250) 899 8424</span>
+                  </p>
+                </a>
+                <a
+                  className="resume-link"
+                  href="https://drive.google.com/uc?export=download&id=1ea57eRkWexBtueiLuSMtyZGD4Jf0ahGo"
+                  download
+                >
+                  <p>
+                    <FontAwesomeIcon icon={faDownload} size="lg" />
+                    <span>Download My Resume</span>
                   </p>
                 </a>
               </div>

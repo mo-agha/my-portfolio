@@ -7,6 +7,7 @@
 h1 {
   font-weight: 500;
   font-size: 48px;
+  margin-bottom: 10px;
 }
 
 #main p {
@@ -18,4 +19,10 @@ h1 {
 
 .wicked {
   transition: font-size 0.1s ease;
+}
+
+.resume-container {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  margin-top: 20px; /* Spacing above the container */
 }
