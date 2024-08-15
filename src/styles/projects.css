@@ -10,6 +10,11 @@ h1 {
   color: #e7db00;
 }
 
+.prompt {
+  opacity: 0;
+  animation: appear 1s ease 0.4s forwards;
+}
+
 ul {
   padding-left: 20px;
   margin-top: 20px;
@@ -34,4 +39,13 @@ li {
 
 #main a:hover {
   transform: translateX(20px);
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

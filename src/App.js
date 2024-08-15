@@ -62,8 +62,6 @@ const App = () => {
           {selectedOption === "projects" && (
             <Projects selectedProject={selectedProject} />
           )}
-          {/* {selectedOption === "skills" && <Skills />}
-          {selectedOption === "contact" && <Contact />} */}
         </div>
         <div className="right-section">
           <div className="options">
@@ -111,13 +109,18 @@ const App = () => {
                 <a
                   href="https://www.linkedin.com/in/-mohamad-agha"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <p>
                     <FontAwesomeIcon icon={faLinkedin} size="2x" />
                     <span>LinkedIn</span>
                   </p>
                 </a>
-                <a href="https://www.github.com/mo-agha" target="_blank">
+                <a
+                  href="https://www.github.com/mo-agha"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <p>
                     <FontAwesomeIcon icon={faGithub} size="2x" />
                     <span>Github</span>

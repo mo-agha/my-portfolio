@@ -128,15 +128,19 @@ body {
 .skills-container,
 .contact-container {
   font-size: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .skills-container {
   text-align: center;
-  margin: 30px 0px;
+  margin: 20px 0px;
 }
 
 .skills-container p {
-  margin: 30px 0px;
+  margin: 15px 0px;
   cursor: pointer;
 }
 

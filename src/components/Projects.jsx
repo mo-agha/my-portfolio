@@ -7,20 +7,25 @@ const Projects = ({ selectedProject }) => {
       {selectedProject ? (
         <>
           <h1>{selectedProject.title}</h1>
+          <h2>{selectedProject.overview}</h2>
           <ul>
-            {selectedProject.details
+            {selectedProject.achievements
               .split("*")
               .map(
-                (detail, index) =>
-                  detail && <li key={index}>{detail.trim()}</li>
+                (achievement, index) =>
+                  achievement && <li key={index}>{achievement.trim()}</li>
               )}
           </ul>
-          <a href={selectedProject.link} target="_blank">
+          <a
+            href={selectedProject.link}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             Check out the repo!
           </a>
         </>
       ) : (
-        <h1>Select a Project to view details.</h1>
+        <h1 className="prompt">Select a Project to view details.</h1>
       )}
     </div>
   );
