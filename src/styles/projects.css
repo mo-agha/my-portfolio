@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: column;
   margin: 20px;
+  color: #e0e0e0;
 }
 
 h1 {
   font-weight: 500;
   font-size: 48px;
-  color: #e7db00;
+  color: #4db6ac;
 }
 
 .prompt {
@@ -29,7 +30,7 @@ li {
 
 #main a {
   text-decoration: none;
-  color: #e7db00;
+  color: #4db6ac;
   font-weight: bold;
   transition: transform 0.3s ease;
   position: absolute;

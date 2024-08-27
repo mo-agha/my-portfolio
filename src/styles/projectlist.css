@@ -1,6 +1,7 @@
 #project-list {
   display: flex;
   flex-direction: column;
+  color: #e0e0e0;
 }
 
 h2 {
@@ -8,15 +9,16 @@ h2 {
   font-size: 20px;
   margin: 20px 0;
   cursor: pointer;
+  color: #e0e0e0;
   transition: color 0.3s ease;
 }
 
 h2:hover {
-  color: #e7db00;
+  color: #4db6ac;
 }
 
 h2.selected {
-  color: #e7db00;
+  color: #4db6ac;
   font-size: 20px;
   transition: font-size 0.3s ease;
 }
