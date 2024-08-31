@@ -33,9 +33,6 @@ li {
   color: #4db6ac;
   font-weight: bold;
   transition: transform 0.3s ease;
-  position: absolute;
-  bottom: 50px;
-  left: 50px;
 }
 
 #main a:hover {
