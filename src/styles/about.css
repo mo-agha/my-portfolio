@@ -5,11 +5,17 @@
   color: #e0e0e0;
 }
 
-h1 {
+#intro-prompt {
   font-weight: 500;
   font-size: 48px;
+  font-family: monospace;
   color: #4db6ac;
   margin-bottom: 10px;
+  width: 100%;
+  letter-spacing: 10px;
+  animation: typing 3s steps(18) 0.4s, glow 3s ease-in-out 3s infinite;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 #main p {
@@ -21,4 +27,20 @@ h1 {
 
 .wicked {
   transition: font-size 0.1s ease;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    text-shadow: 0 0 5px rgba(77, 182, 172, 0.7);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(77, 182, 172, 0.9);
+  }
 }

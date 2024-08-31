@@ -30,7 +30,7 @@ const About = () => {
   }, []);
   return (
     <div id="main">
-      <h1>Hello World!</h1>
+      <h1 id="intro-prompt">Hello World!</h1>
       <p>
         My Name Is <strong>Mohamad Agha.</strong>
       </p>
