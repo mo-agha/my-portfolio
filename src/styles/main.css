@@ -270,7 +270,7 @@ p {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .container {
     max-height: 60vh;
   }
