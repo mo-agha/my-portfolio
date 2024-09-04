@@ -44,3 +44,10 @@
     text-shadow: 0 0 10px rgba(77, 182, 172, 0.9);
   }
 }
+
+@media (max-width: 1024px) {
+  #intro-prompt {
+    text-wrap: wrap;
+    animation: glow 3s ease-in-out 1s infinite;
+  }
+}
