@@ -10,6 +10,7 @@ const ProjectList = ({ onProjectSelect, selectedProject }) => {
       achievements:
         "*Integrated the Spotify API for personalized playlist and track generation based on mood. *Designed an intuitive main page with mood selection buttons and a sleek logo. *Incorporated a gradient shining effect for dynamic text and a stylish rounded border for a polished look. *Focused on simplicity and user engagement to deliver a seamless musical experience.",
       link: "https://www.github.com/mo-agha/MoodMusic",
+      live: "https://moodmusic-nu.vercel.app/",
     },
     {
       title: "WordGuesser",

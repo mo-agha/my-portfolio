@@ -39,6 +39,37 @@ li {
   transform: translateX(20px);
 }
 
+.click-me-text {
+  font-size: 1rem;
+  color: #888;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.arrow {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  display: inline-block;
+  color: #888;
+  top: 0;
+  animation: point 1s ease-in-out infinite;
+}
+
+#main #livelink {
+  font-weight: 500;
+  transform: none;
+}
+
+@keyframes point {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(10px, 0);
+  }
+}
+
 @keyframes appear {
   0% {
     opacity: 0;
