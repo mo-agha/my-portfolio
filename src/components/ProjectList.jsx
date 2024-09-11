@@ -19,6 +19,7 @@ const ProjectList = ({ onProjectSelect, selectedProject }) => {
       achievements:
         "*Built with pure JavaScript, HTML, and CSS. *Achieved dynamic random word generation utilizing the random-words package. *Seamlessly integrated WordsAPI for real-time word validation using REST principles. *Engineered a user-friendly experience with smooth CSS animations, color modifications, and customizable difficulty options.",
       link: "https://www.github.com/mo-agha/WordGuesser",
+      live: "https://word-guesser.vercel.app/",
     },
     {
       title: "Chat App",

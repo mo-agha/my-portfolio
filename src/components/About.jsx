@@ -3,17 +3,17 @@ import { useEffect } from "react";
 import "../styles/about.css";
 
 const About = () => {
-  const [fontSize, setFontSize] = useState("20px"); // Initial font size
+  const [fontSize, setFontSize] = useState("20px");
 
   useEffect(() => {
     const emoji = document.querySelector(".wicked");
 
     const handleMouseEnter = () => {
-      setFontSize("50px"); // Adjust size as needed
+      setFontSize("50px");
     };
 
     const handleMouseLeave = () => {
-      setFontSize("20px"); // Adjust size as needed
+      setFontSize("20px");
     };
 
     if (emoji) {
@@ -28,6 +28,7 @@ const About = () => {
       }
     };
   }, []);
+
   return (
     <div id="main">
       <h1 id="intro-prompt">Hello World!</h1>
