@@ -1,7 +1,10 @@
 import React from "react";
 import "../styles/projects.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowAltLeft } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLongArrowAltLeft,
+  faLongArrowAltUp,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Projects = ({ selectedProject }) => {
   return (
@@ -18,8 +21,11 @@ const Projects = ({ selectedProject }) => {
               >
                 {selectedProject.title}
               </a>
-              <span className="arrow">
+              <span className="arrow arrow-left">
                 <FontAwesomeIcon icon={faLongArrowAltLeft} />
+              </span>
+              <span className="arrow arrow-up">
+                <FontAwesomeIcon icon={faLongArrowAltUp} />
               </span>
               <span className="click-me-text"> (Click Me)</span>
             </h1>

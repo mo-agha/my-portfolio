@@ -47,20 +47,30 @@ li {
 }
 
 .arrow {
-  margin-left: 10px;
   font-size: 1.2rem;
   display: inline-block;
   color: #888;
-  top: 0;
-  animation: point 1s ease-in-out infinite;
+}
+
+.arrow-up {
+  display: none;
+}
+
+.arrow-left {
+  margin-left: 10px;
+  animation: point-left 1s ease-in-out infinite;
 }
 
 #main #livelink {
   font-weight: 500;
-  transform: none;
+  transition: font-weight 0.3s ease;
 }
 
-@keyframes point {
+#main #livelink:hover {
+  font-weight: 700;
+}
+
+@keyframes point-left {
   0%,
   100% {
     transform: translate(0, 0);
@@ -70,11 +80,33 @@ li {
   }
 }
 
+@keyframes point-up {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+
 @keyframes appear {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .arrow-up {
+    display: inline-block;
+    animation: point-up 1s ease-in-out infinite;
+    position: relative;
+    top: -10px;
+  }
+  .arrow-left {
+    display: none;
   }
 }
